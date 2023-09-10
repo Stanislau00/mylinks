@@ -7,7 +7,7 @@ function toggleMode(){
 
     if(mode.classList.contains("light")){
 
-       profileImage.setAttribute("src", "assets/avatar-light.png")
+       profileImage.setAttribute("src", "assets/avatar-light-stan.png")
        profileImage.setAttribute("alt", "Imagen no light mode")
        
     }else{

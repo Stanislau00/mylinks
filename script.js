@@ -8,11 +8,11 @@ function toggleMode(){
     if(mode.classList.contains("light")){
 
        profileImage.setAttribute("src", "assets/avatar-light-stan.png")
-       profileImage.setAttribute("alt", "Imagen no light mode")
+       profileImage.setAttribute("alt", "Stanislau Avatar Dark Mode")
        
     }else{
-        profileImage.setAttribute("src", "assets/avatar.png")
-        profileImage.setAttribute("alt", "foto do maykbrito dark mode")
+        profileImage.setAttribute("src", "assets/avatar-stan.png")
+        profileImage.setAttribute("alt", "Stanislau Avatar Light Mode")
     }
     
 }
